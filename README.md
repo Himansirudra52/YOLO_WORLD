@@ -11,21 +11,22 @@ Features
 
 5. Model evaluation and visualizations included
 
-Dataset
+# Dataset
 Custom dataset: 15 classes
 
 Combination of COCO and LVIS annotations
 
 Converted to YOLO format for training
 
-Architecture Enhancements
+# Architecture Enhancements
 Modified prompt encoder
 
 Custom vocabulary alignment layer
 
 Visualization support added using OpenCV and Matplotlib
 
-Training & Evaluation
+# Training & Evaluation
+
 Platform: Google Colab
 
 Optimizer: AdamW
@@ -34,12 +35,14 @@ Metrics: mAP, zero-shot accuracy
 
 Hardware: T4 GPU
 
-# Clone the repository
+# How To Run
+
 !git clone https://github.com/your-username/yolo-world-custom
 
-# Run main notebook
 Open yoloworld_custom.ipynb in Google Colab
-Future Work
+
+# Future Work
+
 Expand to 50 classes
 
 Deploy model on web using Flask
